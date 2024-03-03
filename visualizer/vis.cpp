@@ -446,10 +446,6 @@ void display(){
 	//again select MODEL-VIEW
 	glMatrixMode(GL_MODELVIEW);
 
-
-	/****************************
-	/ Add your objects from here
-	****************************/
 	//add objects
 
 

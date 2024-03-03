@@ -975,19 +975,6 @@ void animate(){
 
     //write here
 
-
-
-
-
-
-
-
-    //direction for each robot found above
-
-//    for (i = 0; i < targetdir.size(); i++) cout << targetdir[i] << " ";
-//    cout << endl;
-
-
     unordered_set<int> st;
 
 

@@ -370,8 +370,7 @@ int old_paper()
         }
         V[max_index] = 1;
     }
-    //print_V(V);
-
+   
     vector<int> S2 = vector<int>(R, -1);
     vector<int> TC = vector<int>(T, 0);
     for (int i = 0; i < R; i++)
@@ -385,13 +384,9 @@ int old_paper()
 
     for (int i = A; i < R; i++)
     {
-        //print_V(S2);
         greedy_next(S2, TC);
     }
-    //print_V(S2);
-
-    //cout << differential_coverage(shift(S2), V) << endl;
-
+   
 
     vector<int> D = min_diff_coverage(shift(S2));
 
