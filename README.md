@@ -3,7 +3,7 @@ This repository contains the source code for the paper titled [Failure-Resilient
 
 In this work, I develop two approximate algorithms, one based on a _greedy_ approach, in which I produce an ordering of the robots according to some sorting criteria, and greedily select the trajectories of each robot sequentially according to the sorted order, and another based on _local search_ technique, in which I start with an initial solution of the RCM problem, and gradually move towards a better neighbor of the current solution until a local optima is reached.
 
-I conduct extensive experiments to demonstrate the effectiveness of the two proposed algorithms. I also test the performance of the proposed algorithm in a simulated environment using a case study. The case study is based on the multi-robot [persistent monitoring task](https://ieeexplore.ieee.org/abstract/document/8815211). I select trajectories of the robots such that target coverage is maximized in case of a worst-case failure of $\alpha$ robots. The simulated environment is rendered using [OpenGL](https://open.gl/).
+I conduct extensive experiments to demonstrate the effectiveness of the two proposed algorithms. I also test the performance of the proposed algorithm in a simulated environment using a case study. The case study is based on the multi-robot [persistent monitoring task](https://ieeexplore.ieee.org/abstract/document/8815211). I select trajectories of the robots such that target coverage is maximized in case of a worst-case failure of $\alpha$ robots. The simulation of the case-study environment is rendered using [OpenGL](https://open.gl/).
 
 
 
