@@ -5,9 +5,6 @@ In this work, I develop two approximate algorithms, one based on a _greedy_ appr
 
 I conduct extensive experiments to demonstrate the effectiveness of the two proposed algorithms. I also test the performance of the proposed algorithm in a simulated environment using a case study. The case study is based on the multi-robot [persistent monitoring task](https://ieeexplore.ieee.org/abstract/document/8815211). I select trajectories of the robots such that target coverage is maximized in case of a worst-case failure of $\alpha$ robots. The simulation of the case-study environment is rendered using [OpenGL](https://open.gl/).
 
-https://github.com/ieranik/rcm/assets/57804205/db7dfe32-1b81-461d-a043-969a2db2d980
-
-
 # Directory Tree and Code Explanation
 
 <p align="center">
